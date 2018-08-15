@@ -14,7 +14,7 @@ step4 ) git add .
 step5) git commit -m "added new ignore file"
 
 Step6) Remove recursive the files with the below command
-       git rm --cached -r README.md
+       git rm --cached README.md
        
 Step 7) Amend the previous commit in history: 
         git commit --amend -CHEAD
